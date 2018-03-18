@@ -7,6 +7,7 @@ Please see ```amr2wav.go``` for details.
 
 # Build
 ```go build```
+
 Tested under MacOS X
 
 # Usage
@@ -14,4 +15,5 @@ Tested under MacOS X
 
 # License
 Decoder code is under its original license.
+
 amr2wav.go is under the Apache license
