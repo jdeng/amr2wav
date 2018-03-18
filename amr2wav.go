@@ -135,4 +135,3 @@ func main() {
 	ioutil.WriteFile(os.Args[2], out, 0755)
 	log.Printf("Converted %s to %s\n", os.Args[1], os.Args[2])
 }
-
