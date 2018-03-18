@@ -26,8 +26,9 @@ import (
 //    GSMDecodeFrameExit(&state);
 //}
 //
-//short Decoder_Interface_Decode(void* state, void* in, void* out, int bfi) {
-//    unsigned char type = (((unsigned char *)in)[0] >> 3) & 0x0f;
+//short Decoder_Interface_Decode(void* state, void* _in, void* out, int bfi) {
+//    unsigned char *in = (unsigned char *)_in;
+//    unsigned char type = (in[0] >> 3) & 0x0f;
 //    in++;
 //    return AMRDecode(state, (enum Frame_Type_3GPP) type, (UWord8*) in, (short *)out, MIME_IETF);
 //}
