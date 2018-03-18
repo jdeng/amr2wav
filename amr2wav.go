@@ -50,7 +50,6 @@ func decode(in []byte) ([]byte, error) {
 			break
 		}
 		ret := C.Decoder_Interface_Decode(d, unsafe.Pointer(&in[0]), unsafe.Pointer(&buf[0]), C.int(0))
-		log.Println(ret)
 		if ret < 0 {
 			err = fmt.Errorf("Invalid data")
 			break
