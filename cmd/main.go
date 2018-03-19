@@ -1,9 +1,9 @@
 package main
 
 import (
-	amr2wav ".."
-	"io/ioutil"
 	"fmt"
+	"github.com/jdeng/amr2wav"
+	"io/ioutil"
 	"log"
 	"os"
 )
