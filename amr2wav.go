@@ -1,4 +1,4 @@
-package main
+package amr2wav
 
 import (
 	"bytes"
