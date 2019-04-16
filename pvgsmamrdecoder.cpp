@@ -27,7 +27,7 @@ Permission to distribute, modify and use this file under the standard license
 terms listed above has been obtained from the copyright holder.
 ****************************************************************************************/
 
-#include "PVGSMAMRDecoder.h"
+#include "pvgsmamrdecoder.h"
 
 
 /////////////////////////////////////////////////////////////////////////////
